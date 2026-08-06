@@ -1,7 +1,19 @@
-node_modules
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment files
 .env
 client/.env
 server/.env
-dist
-build
-.vscode
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
