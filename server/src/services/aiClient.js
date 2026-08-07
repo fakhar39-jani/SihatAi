@@ -125,7 +125,7 @@ export async function callModelStudio(messages) {
       .join("\n\n");
 
     const response = await ai.models.generateContent({
-      model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
+      model: "gemini-3.5-flash",
       contents: `${SYSTEM_PROMPT}\n\n${conversation}`,
       config: {
         temperature: 0.4,
